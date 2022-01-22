@@ -9,8 +9,6 @@ export default {
   methods: {
     changeCity(e) {
       let flag = citysName.includes(e.target.value);
-      // if(!flag) return alert('请输入正确的城市');
-      // console.log(flag);
       if (flag) {
         this.$emit("changeCity", e.target.value);
       }
@@ -28,5 +26,11 @@ input {
   border: none;
   text-align: center;
   background: none;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+}
+input::-webkit-input-placeholder{
+  color: white;
 }
 </style>

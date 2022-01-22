@@ -50,7 +50,8 @@ export default {
   flex-direction: column;
   position: absolute;
   bottom: 0;
-  background-color: white;
+  // background-color: rgb(165, 161, 161);
+  backdrop-filter: blur(100rem);
   font-size: 1.4rem;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
@@ -61,18 +62,21 @@ export default {
   .top {
     // flex: 1;
     .flexCom;
-    margin-top: 1rem;
+    width: 100%;
+    // background-color: yellow;
+    margin-top: 1.5rem;
     // background-color: tomato;
     .item {
       flex: 1;
       border-bottom: 3px solid transparent;
       // border-bottom: 3px solid red;
       transition: 1s;
-      // padding-bottom: 1rem;
+      padding: 1rem;
     }
-      .active {
-    border-bottom: 3px solid black;
-  }
+    .active {
+      color: white;
+      border-bottom: 3px solid white;
+    }
   }
   // .bottom{
   //   .flexCom;
@@ -82,6 +86,5 @@ export default {
   //   width: 100%;
   //   background-color: turquoise;
   // }
-
 }
 </style>

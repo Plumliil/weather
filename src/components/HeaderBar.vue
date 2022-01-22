@@ -21,12 +21,12 @@ export default {};
   position: absolute;
   top: 0;
   width: 100%;
-  height: 2rem;
+  height: 3rem;
   // background-color: chocolate;
   display: flex;
   justify-content: center;
   align-items: center;
-  line-height: 2;
+  line-height: 3;
   border-bottom: 1px solid black;
   .left,
   .conter,
